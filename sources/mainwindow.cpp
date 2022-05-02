@@ -3,14 +3,14 @@
 # include "../forms/ui_untitled.h"
 
 
-MainWindow::MainWindow(Qwidget *parent):
-QMainWindow(parent),
-ui(new Ui::MainWindow)
+MainWindow::MainWindow(QWidget *parent):
+    QDialog (parent),
+    ui(new Ui::Dialog)
 {
-ui->setupUi(this);
+    ui->setupUi(this);
 }
 
-MainWindow::~MainWindindow()
+MainWindow::~MainWindow()
 {
     delete ui;
 }

@@ -5,7 +5,14 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ilua/QT/qt_test",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_SOURCE_DIR" : "/home/ilua/QT/qt_test",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/ilua/QT/qt_test/headlines/mainwindow.h",
+			"MU",
+			"NF4Y4CI5HA/moc_mainwindow.cpp"
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/ilua/QT/qt_test/build/qt_test_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/ilua/QT/qt_test/build/qt_test_autogen/mocs_compilation.cpp",

@@ -6,8 +6,24 @@
 
 #IncludeRegexTransform: 
 
+../headlines/mainwindow.h
+QDialog
+-
+
+/home/ilua/QT/qt_test/build/qt_test_autogen/NF4Y4CI5HA/moc_mainwindow.cpp
+headlines/mainwindow.h
+/home/ilua/QT/qt_test/build/qt_test_autogen/NF4Y4CI5HA/headlines/mainwindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/ilua/QT/qt_test/build/qt_test_autogen/mocs_compilation.cpp
+NF4Y4CI5HA/moc_mainwindow.cpp
+/home/ilua/QT/qt_test/build/qt_test_autogen/NF4Y4CI5HA/moc_mainwindow.cpp
+
 /home/ilua/QT/qt_test/headlines/mainwindow.h
-QMainWindow
+QDialog
 -
 
 /home/ilua/QT/qt_test/sources/main.cpp
@@ -15,6 +31,16 @@ QMainWindow
 /home/ilua/QT/qt_test/headlines/mainwindow.h
 QApplication
 -
+
+/home/ilua/QT/qt_test/sources/mainwindow.cpp
+../headlines/mainwindow.h
+/home/ilua/QT/qt_test/headlines/mainwindow.h
+../forms/ui_untitled.h
+/home/ilua/QT/qt_test/forms/ui_untitled.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+qvariant.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
@@ -838,16 +864,6 @@ QtCore/qpoint.h
 QtCore/qsize.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
-QtGui/qtguiglobal.h
--
-QtCore/qsize.h
--
-QtCore/qlist.h
--
-QtGui/qpixmap.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
 QtGui/qtguiglobal.h
 -
@@ -1050,9 +1066,13 @@ QtGui/qtguiglobal.h
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
-qmainwindow.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+qdialog.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialogButtonBox
+qdialogbuttonbox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialogbuttonbox.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 QtWidgets/qtwidgetsglobal.h
@@ -1078,12 +1098,16 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
-QtWidgets/qtabwidget.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialogbuttonbox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
@@ -1092,14 +1116,6 @@ QtWidgets/qtwidgetsglobal.h
 QtCore/qobject.h
 -
 QtCore/qalgorithms.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-QtGui/qicon.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
@@ -1140,5 +1156,15 @@ QtGui/qcursor.h
 QtGui/qkeysequence.h
 -
 QtGui/qevent.h
+-
+
+qt_test_autogen/forms/ui_untitled.h
+QtCore/QVariant
+-
+QtWidgets/QApplication
+-
+QtWidgets/QDialog
+-
+QtWidgets/QDialogButtonBox
 -
 
