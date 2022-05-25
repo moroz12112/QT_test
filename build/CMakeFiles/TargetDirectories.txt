@@ -1,4 +1,0 @@
-/home/ilua/QT/qt_test/build/CMakeFiles/edit_cache.dir
-/home/ilua/QT/qt_test/build/CMakeFiles/rebuild_cache.dir
-/home/ilua/QT/qt_test/build/CMakeFiles/qt_test.dir
-/home/ilua/QT/qt_test/build/CMakeFiles/qt_test_autogen.dir
