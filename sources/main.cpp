@@ -1,7 +1,7 @@
 
 #include "../headlines/mainwindow.h"
 #include <QApplication>
-#include <QSerialPort>
+#include <QtSerialPort/QSerialPort>
 
 int main(int argc , char *argv[])
 {

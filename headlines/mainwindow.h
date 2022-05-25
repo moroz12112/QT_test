@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QDialog>
-#include <QSerialPort>
+#include <QtSerialPort/QSerialPort>
 
 
 
