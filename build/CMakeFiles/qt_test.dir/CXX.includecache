@@ -9,6 +9,8 @@
 ../headlines/mainwindow.h
 QDialog
 -
+QSerialPort
+-
 
 /home/ilua/QT/qt_test/build/qt_test_autogen/NF4Y4CI5HA/moc_mainwindow.cpp
 headlines/mainwindow.h
@@ -21,26 +23,6 @@ QtCore/qmetatype.h
 /home/ilua/QT/qt_test/build/qt_test_autogen/mocs_compilation.cpp
 NF4Y4CI5HA/moc_mainwindow.cpp
 /home/ilua/QT/qt_test/build/qt_test_autogen/NF4Y4CI5HA/moc_mainwindow.cpp
-
-/home/ilua/QT/qt_test/headlines/mainwindow.h
-QDialog
--
-
-/home/ilua/QT/qt_test/sources/main.cpp
-../headlines/mainwindow.h
-/home/ilua/QT/qt_test/headlines/mainwindow.h
-QApplication
--
-
-/home/ilua/QT/qt_test/sources/mainwindow.cpp
-../headlines/mainwindow.h
-/home/ilua/QT/qt_test/headlines/mainwindow.h
-../forms/ui_untitled.h
-/home/ilua/QT/qt_test/forms/ui_untitled.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
-qvariant.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
@@ -134,20 +116,6 @@ limits.h
 new
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
-QtCore/qglobal.h
--
-QtCore/qstring.h
--
-QtCore/qobject.h
--
-QtCore/qcoreevent.h
--
-QtCore/qeventloop.h
--
-QtCore/qscopedpointer.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
@@ -194,10 +162,6 @@ list
 map
 -
 utility
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
-QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
@@ -848,22 +812,6 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
-QtGui/qtguiglobal.h
--
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtGui/qinputmethod.h
--
-QtCore/qlocale.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
 QtGui/qtguiglobal.h
 -
@@ -884,12 +832,6 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
-QtGui/qtguiglobal.h
--
-QtCore/qobject.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
@@ -1062,49 +1004,11 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
-qapplication.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 qdialog.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialogButtonBox
-qdialogbuttonbox.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialogbuttonbox.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
-QtWidgets/qtwidgetsglobal.h
--
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-QtGui/qcursor.h
--
-QtWidgets/qdesktopwidget.h
--
-QtGui/qguiapplication.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialogbuttonbox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -1156,15 +1060,5 @@ QtGui/qcursor.h
 QtGui/qkeysequence.h
 -
 QtGui/qevent.h
--
-
-qt_test_autogen/forms/ui_untitled.h
-QtCore/QVariant
--
-QtWidgets/QApplication
--
-QtWidgets/QDialog
--
-QtWidgets/QDialogButtonBox
 -
 

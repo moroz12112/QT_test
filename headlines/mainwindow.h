@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QDialog>
+#include <QSerialPort>
+
+
 
 namespace Ui {
     class Dialog;
@@ -15,8 +18,17 @@ public:
     explicit MainWindow(QWidget *parent = 0 );
     ~MainWindow();
 
-private:
+signals:
+    void rotate(int deg_cw);
 
+public slots:
+    void receiveRotate(int def);
+    void on_pushButton_2_clicked();
+    void manual_connection_manu();
+    void rotateReceiver(int);
+
+private:
+    int cc;
     Ui::Dialog *ui;
 
 };
