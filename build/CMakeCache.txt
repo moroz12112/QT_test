@@ -209,6 +209,9 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
 
@@ -218,8 +221,14 @@ Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
 //The directory containing a CMake configuration file for Qt5PrintSupport.
 Qt5PrintSupport_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport
 
+//The directory containing a CMake configuration file for Qt5QSerialPortInfo.
+Qt5QSerialPortInfo_DIR:PATH=Qt5QSerialPortInfo_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for Qt5SeiralPort.
 Qt5SeiralPort_DIR:PATH=Qt5SeiralPort_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5SerialPortInfo.
+Qt5SerialPortInfo_DIR:PATH=Qt5SerialPortInfo_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5SerialPort.
 Qt5SerialPort_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5SerialPort
@@ -229,6 +238,9 @@ Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
+
+//Path to a library.
+pkgcfg_lib_KDL_orocos-kdl:FILEPATH=/usr/lib/liborocos-kdl.so
 
 //Value Computed by CMake
 qt_test_BINARY_DIR:STATIC=/home/ilua/QT/qt_test/build
@@ -384,4 +396,48 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
+KDL_CFLAGS:INTERNAL=-I/usr/include/eigen3
+KDL_CFLAGS_I:INTERNAL=
+KDL_CFLAGS_OTHER:INTERNAL=
+KDL_FOUND:INTERNAL=1
+KDL_INCLUDEDIR:INTERNAL=/usr/include
+KDL_INCLUDE_DIRS:INTERNAL=/usr/include/eigen3
+KDL_LDFLAGS:INTERNAL=-lorocos-kdl
+KDL_LDFLAGS_OTHER:INTERNAL=
+KDL_LIBDIR:INTERNAL=/usr/lib
+KDL_LIBRARIES:INTERNAL=orocos-kdl
+KDL_LIBRARY_DIRS:INTERNAL=
+KDL_LIBS:INTERNAL=
+KDL_LIBS_L:INTERNAL=
+KDL_LIBS_OTHER:INTERNAL=
+KDL_LIBS_PATHS:INTERNAL=
+KDL_MODULE_NAME:INTERNAL=orocos_kdl
+KDL_PREFIX:INTERNAL=/usr
+KDL_STATIC_CFLAGS:INTERNAL=-I/usr/include/eigen3
+KDL_STATIC_CFLAGS_I:INTERNAL=
+KDL_STATIC_CFLAGS_OTHER:INTERNAL=
+KDL_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/eigen3
+KDL_STATIC_LDFLAGS:INTERNAL=-lorocos-kdl
+KDL_STATIC_LDFLAGS_OTHER:INTERNAL=
+KDL_STATIC_LIBDIR:INTERNAL=
+KDL_STATIC_LIBRARIES:INTERNAL=orocos-kdl
+KDL_STATIC_LIBRARY_DIRS:INTERNAL=
+KDL_STATIC_LIBS:INTERNAL=
+KDL_STATIC_LIBS_L:INTERNAL=
+KDL_STATIC_LIBS_OTHER:INTERNAL=
+KDL_STATIC_LIBS_PATHS:INTERNAL=
+KDL_VERSION:INTERNAL=1.4.0
+KDL_orocos_kdl_INCLUDEDIR:INTERNAL=
+KDL_orocos_kdl_LIBDIR:INTERNAL=
+KDL_orocos_kdl_PREFIX:INTERNAL=
+KDL_orocos_kdl_VERSION:INTERNAL=
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+__pkg_config_arguments_KDL:INTERNAL=REQUIRED;orocos_kdl
+__pkg_config_checked_KDL:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_KDL_orocos-kdl
+pkgcfg_lib_KDL_orocos-kdl-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/lib
 

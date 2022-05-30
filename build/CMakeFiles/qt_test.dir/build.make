@@ -110,6 +110,7 @@ qt_test: CMakeFiles/qt_test.dir/sources/main.cpp.o
 qt_test: CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o
 qt_test: CMakeFiles/qt_test.dir/build.make
 qt_test: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+qt_test: /usr/lib/x86_64-linux-gnu/libQt5SerialPort.so.5.12.8
 qt_test: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 qt_test: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 qt_test: CMakeFiles/qt_test.dir/link.txt

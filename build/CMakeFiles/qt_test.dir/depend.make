@@ -102,6 +102,11 @@ CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_
 CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
 CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPort
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialport.h
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
 CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 CMakeFiles/qt_test.dir/qt_test_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
@@ -213,6 +218,11 @@ CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtG
 CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
 CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPort
+CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialport.h
+CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
 CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
@@ -225,7 +235,9 @@ CMakeFiles/qt_test.dir/sources/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtW
 
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: ../headlines/mainwindow.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: ../sources/mainwindow.cpp
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -276,6 +288,7 @@ CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/q
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -330,10 +343,17 @@ CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/q
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPort
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/QSerialPortInfo
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialport.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportglobal.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSerialPort/qserialportinfo.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialogButtonBox
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
@@ -342,7 +362,11 @@ CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/q
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTabWidget
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialogbuttonbox.h
@@ -350,7 +374,12 @@ CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/q
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
+CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 CMakeFiles/qt_test.dir/sources/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h

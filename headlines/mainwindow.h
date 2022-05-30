@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QSerialPort>
+#include <QSerialPortInfo>
 
 
 
@@ -26,10 +27,14 @@ public slots:
     void on_pushButton_2_clicked();
     void manual_connection_manu();
     void rotateReceiver(int);
+    void serialRecieve();
+    void  OpenPort();
+    void  ClosePorts();
 
 private:
     int cc;
     Ui::Dialog *ui;
+    QSerialPort *serial;
 
 };
 
